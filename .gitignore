@@ -1,0 +1,22 @@
+# Ignore all node_modules folders (any depth)
+**/node_modules/
+
+# Ignore .CopilotSnapshots folders from any location
+**/.CopilotSnapshots/
+
+# Common build output
+**/bin/
+**/obj/
+**/dist/
+
+# VS & Rider
+**/.vs/
+**/.idea/
+
+# Logs and env
+*.log
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
